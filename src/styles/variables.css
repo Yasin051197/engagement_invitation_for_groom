@@ -1,0 +1,51 @@
+/* ==========================================================================
+   DESIGN TOKENS — soft premium Indian Muslim engagement palette
+   ========================================================================== */
+
+:root {
+  /* ---- Colour palette (strictly the approved tones) ---- */
+  --color-offwhite: #fffdf8;
+  --color-cream: #f8eedc;
+  --color-babypink: #f7c8d0;
+  --color-blush: #fdecef;
+  --color-rosegold: #b76e79;
+  --color-rosegold-soft: #c98f98;
+  --color-text-deep: #4a2f35;
+  --color-text-muted: #7a5c61;
+  --color-gold: #d8a75b;
+
+  /* Derived translucent tints (used for glows, borders, overlays) */
+  --rosegold-10: rgba(183, 110, 121, 0.1);
+  --rosegold-18: rgba(183, 110, 121, 0.18);
+  --rosegold-30: rgba(183, 110, 121, 0.3);
+  --gold-20: rgba(216, 167, 91, 0.2);
+  --gold-40: rgba(216, 167, 91, 0.4);
+
+  /* ---- Typography ---- */
+  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Noto Naskh Arabic', 'Cormorant Garamond', serif;
+
+  /* ---- Spacing & layout ---- */
+  --content-max: 760px;
+  --section-pad-block: clamp(1.5rem, 4vw, 2.5rem);
+  --gutter: clamp(1.1rem, 5vw, 2rem);
+  --radius-lg: 26px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+
+  /* ---- Card padding & grid rhythm — one standard shared by every card ---- */
+  --card-pad: clamp(1.6rem, 5vw, 2.4rem); /* inside main content cards */
+  --card-pad-compact: clamp(1.2rem, 4vw, 1.6rem); /* small cards in a grid */
+  --card-gap: clamp(1.2rem, 4vw, 1.6rem); /* gap between grid items */
+
+  /* ---- Elevation ---- */
+  --shadow-soft: 0 18px 40px -24px rgba(74, 47, 53, 0.35);
+  --shadow-card: 0 10px 30px -18px rgba(74, 47, 53, 0.3);
+  --shadow-float: 0 24px 60px -30px rgba(183, 110, 121, 0.45);
+
+  /* ---- Motion ---- */
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --reveal-duration: 1100ms;
+}
