@@ -136,11 +136,11 @@ export const invitationData: InvitationData = {
 
   dressCode: "Pastel / Traditional",
   dinnerText: "Dinner will be served after the ceremony.",
-  specialInstruction: "Kindly arrive 10 minutes before the ceremony.",
+  specialInstruction: "Kindly arrive a few minutes before the ceremony begins.",
 
   // Groom-side RSVP contacts — guests may reach out to whichever they prefer.
   rsvpContacts: [
-    { title: "Mr.", name: "Mosin Jamadar", phone: "+91 9595597475" },
+    { title: "Mr.", name: "Mosin Jamadar", phone: "+91 9595597574" },
     { title: "Mrs.", name: "Shabana Jamadar", phone: "+91 8055059992" },
   ],
   whatsappMessage:
